@@ -1,14 +1,14 @@
-export function didUserWin(userRPS, computerRps) {
-    if (userRPS === computerRps) {
+export function didUserWin(userRps, computerRps) {
+    if (userRps === computerRps) {
         return 'draw';
     }
-    if (userRPS === 'Scissors' && computerRps === 'Paper') {
+    if (userRps === 'Scissors' && computerRps === 'Paper') {
         return 'win';
     }
-    if (userRPS === 'Rock' && computerRps === 'Scissors') {
+    if (userRps === 'Rock' && computerRps === 'Scissors') {
         return 'win';
     }
-    if (userRPS === 'Paper' && computerRps === 'Rock') {
+    if (userRps === 'Paper' && computerRps === 'Rock') {
         return 'win';
     } else {
         return 'lose';
