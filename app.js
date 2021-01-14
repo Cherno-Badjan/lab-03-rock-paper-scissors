@@ -41,7 +41,7 @@ playButton.addEventListener('click', () => {
 
     if (didUserWin(userRps, computerRps) === 'lose') {
         losses++;
-        currentResults.textContent = `You lost You chose ${userRps}! and the computer chose ${computerRps}!`;
+        currentResults.textContent = `You lost! You chose ${userRps}! and the computer chose ${computerRps}!`;
         lossDisplay.textContent = losses
     }
 });
