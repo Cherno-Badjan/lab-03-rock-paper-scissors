@@ -3,15 +3,15 @@ export function didUserWin(userRPS, computerRps) {
         return 'draw';
     }
     if (userRPS === 'Scissors' && computerRps === 'Paper') {
-        return 'You win';
+        return 'win';
     }
     if (userRPS === 'Rock' && computerRps === 'Scissors') {
-        return 'You win';
+        return 'win';
     }
     if (userRPS === 'Paper' && computerRps === 'Rock') {
-        return 'You win';
+        return 'win';
     } else {
-        return 'You lose';
+        return 'lose';
     }
 
 }
