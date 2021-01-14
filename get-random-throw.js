@@ -1,4 +1,16 @@
-function getRandomThrow() {
-    Math.floor(Math.random() * 3) + 1;  // returns random integer from 1-3
-    console.log(getRandomThrow)
+export function getRandomThrow(rockPaperScissors) {
+
+    if (rockPaperScissors === 1) {
+        return 'Rock'
+    }
+
+    if (rockPaperScissors === 2) {
+        return 'Paper'
+    }
+
+    if (rockPaperScissors === 3) {
+        return 'Scissors'
+    }
+
+
 }
