@@ -20,6 +20,23 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url(https://www.esquireme.com/public/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=XyCX7Spl);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: green;
+    font-weight: bolder;
+}
+
+.instructions {
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.results-section {
+    color: green;
+    display:inline-block;
 }
 
 main {
@@ -28,8 +45,14 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    color: red;
+    font-weight: bold;
 }
 
+#play-button {
+    background-color: seagreen;
+    margin-bottom: 5%;
+}
 section {
     background-color: var(--color5);
     width: 1000px;
